@@ -38,6 +38,9 @@ add_executable(sdl_game
     src/Vector2.hpp
     src/Font.hpp
     src/Font.cpp
+    src/math/Vec2.hpp
+    src/math/Vec2.ipp
+    src/math/Vec2.cpp
 )
 
 # Link SDL3
