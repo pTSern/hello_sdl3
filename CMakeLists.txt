@@ -31,6 +31,7 @@ FetchContent_MakeAvailable(SDL3)
 # Project executable
 add_executable(sdl_game
     src/main.cpp
+
     src/Game.cpp
     src/Game.hpp
     src/Particle.cpp
@@ -38,9 +39,26 @@ add_executable(sdl_game
     src/Vector2.hpp
     src/Font.hpp
     src/Font.cpp
+
     src/math/Vec2.hpp
     src/math/Vec2.ipp
     src/math/Vec2.cpp
+
+    src/math/Vec3.hpp
+    src/math/Vec3.ipp
+    src/math/Vec3.cpp
+
+    src/math/Color.hpp
+    src/math/Color.ipp
+    src/math/Color.cpp
+
+    src/math/Quat.hpp
+    src/math/Quat.ipp
+    src/math/Quat.cpp
+
+    src/math/Frac.hpp
+    src/math/Frac.ipp
+    src/math/Frac.cpp
 )
 
 # Link SDL3
